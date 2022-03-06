@@ -1,0 +1,27 @@
+{
+  "name": "alkemy-challenge",
+  "version": "1.0.0",
+  "description": "Challenge for Alkemy seniority accellerator",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BrunoAntenucci/AlkemyChallenge.git"
+  },
+  "author": "Bruno Antenucci",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BrunoAntenucci/AlkemyChallenge/issues"
+  },
+  "homepage": "https://github.com/BrunoAntenucci/AlkemyChallenge#readme",
+  "dependencies": {
+    "express": "^4.17.3",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.15",
+    "pg": "^8.7.3",
+    "sequelize": "^6.17.0"
+  }
+}
