@@ -4,6 +4,7 @@ module.exports = function(sequelize) {
     return sequelize.define('operation', {
         id: {
             type: DataTypes.UUID,
+            defaultValue: DataTypes.UUIDV4,
             allowNull: false,
             primaryKey: true
         },
@@ -17,6 +18,7 @@ module.exports = function(sequelize) {
         },
         date: {
             type: DataTypes.DATE,
+            defaultValue: DataTypes.NOW,
             allowNull: false
         },
         operation_type: {

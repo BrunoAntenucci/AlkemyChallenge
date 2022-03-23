@@ -7,7 +7,7 @@ const UsersRoute = require('./users.js')
 
 
 router.use('/operations', OperationsRoute)
-router.use('/useres', UsersRoute)
+router.use('/users', UsersRoute)
 
 
 module.exports = router;

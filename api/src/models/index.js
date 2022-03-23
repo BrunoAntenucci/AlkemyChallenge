@@ -13,7 +13,7 @@ const sequelize = new Sequelize(
 const Operations = OperationMaker(sequelize);
 const Users = UserManipulator(sequelize);
 
-Operations.belongsToMany(Users, {through: 'UsersOperations'});
+Operations.belongsTo(Users, {through: 'UsersOperations'});
 Users.belongsToMany(Operations, {through: 'UsersOperations'});
 
 module.exports = {
